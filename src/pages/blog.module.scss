@@ -1,0 +1,58 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.post {
+    //margin:  1rem 0;
+
+    a {
+        background: #f4f4f4;
+        color: #000000;
+        display: block;
+        padding: .3rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        background: #e4e4e4;
+    }
+
+    h2 {
+        margin-bottom: 0;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    p {
+        color: #777777;
+        font-size: .8rem;
+        //font-style: italic;
+        font-family: 'Andika', sans-serif;
+        margin-bottom: .5rem;
+    }
+}
+
+h1 {
+    font-family: 'Andika', sans-serif;
+    font-size: 1.0rem;
+    margin-left: 0%;
+    padding-bottom: 1rem;
+    padding-left: 0%;
+}
+
+p {
+    font-family: 'Andika', sans-serif;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    height: 180px; 
+    padding-right: 10px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

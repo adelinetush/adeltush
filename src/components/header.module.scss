@@ -1,0 +1,39 @@
+.header {
+    padding: 1rem 0 1.5rem;
+    text-align: center;
+}
+
+.title {
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.nav-item {
+    color: #999999;
+    font-size: .9rem;
+    margin: 1.3rem;
+    text-decoration: none;
+    font-family: 'Andika', sans-serif;
+}
+
+.nav-item:hover {
+    color: #666666;
+}
+
+.active-nav-item {
+    color: #333333;
+}
+
+.link {
+    color: green;
+}
